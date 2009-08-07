@@ -1,7 +1,7 @@
 SPEC = Gem::Specification.new do |s|
   s.name          = "gem-sane-binary"
-  s.version       = "0.1.0"
-  s.date          = "2009-06-14"
+  s.version       = "0.1.1"
+  s.date          = "2009-08-07"
   s.author        = "Loren Segal"
   s.email         = "lsegal@soen.ca"
   s.homepage      = "http://gnuu.org"

@@ -1,0 +1,4 @@
+2009-08-07  Loren Segal <lsegal@soen.ca>
+
+  * lib/rubygems_plugin.rb: Undefine RubyGems methods before redefining to
+  avoid 'ruby -w' warnings
