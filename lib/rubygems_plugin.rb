@@ -1,6 +1,7 @@
 require 'rubygems/installer'
 
 class Gem::Installer
+  undef shebang
   def shebang(bin_file_name)
     if @env_shebang then
       "#!/usr/bin/env " + Gem::ConfigMap[:ruby_install_name]
